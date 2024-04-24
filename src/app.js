@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from "react";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import About from "./components/About";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "../index.css";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import ContectUs from "./components/ContectUs";
